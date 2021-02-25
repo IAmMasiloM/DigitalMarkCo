@@ -1,0 +1,132 @@
+#home-page-form{
+
+	background-image: url('../img/apple-keyboard-ballpen-camera-843226.jpg');
+background-size: cover; 
+/*filter: grayscale(100%);*/
+
+}
+
+#home-page-article{
+
+	background-image: url('../img/book-computer-design-326424.jpg');
+background-size: cover; 
+/*filter: grayscale(100%);*/
+
+}
+
+.port-img{
+
+	filter: grayscale(100%);
+}
+
+.port-img:hover{
+
+	filter: grayscale(0%);
+}
+
+img  ~.iconic{
+
+ -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+
+}
+
+.header-image-bg{
+
+background-image: url('../img/apple-keyboard-ballpen-black-and-white-934062.jpg');
+background-size: cover; 
+/*max-height: 100%;*/
+
+}
+
+#create-post-btn{
+
+	margin-top: 15px;
+}
+
+.form-spacing-top{
+
+margin-top: 10px;
+
+}
+
+.btn-spacer{
+
+	margin: 4px;
+
+}
+
+.author-image{
+
+width:50px;
+height: 50px;
+border-radius:100%;
+float: left;
+margin-top: 10px;
+
+}
+
+.author-name{
+
+	float: left;
+	margin-left: 15px;
+}
+
+.author-name>h5{
+
+	margin: 5px 0px;
+	
+}
+
+.author-time{
+	font-style: italic;
+	font-size: 11px;
+}
+
+.comment{
+
+	margin-bottom: 45px;
+}
+
+.comment-content{
+
+	clear: both;
+	margin-left: 65px;
+	font-size: 16px;
+	line-height: 1.3em;
+}
+
+/*}
+
+.pagination > li > a,
+.pagination > li > span {
+    color: green;  use your own color here
+}*/
+
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+    background-color: green;
+    border-color: green;
+    /*color: #28a745;*/
+}
+
+.pagination> .active> li>a
+.pagination> .active> li>span {
+background-color: green;
+}
+
+.pagination > li >a,
+.pagination > li >span{
+
+color: #28a745;
+ /*background-color: gree;*/
+/*z-index: 3;
+
+background-color: #fff;
+border-color: #28a745;*/
+
+}
